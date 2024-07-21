@@ -9,8 +9,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Define your bot token
-BOT_TOKEN = '7274340643:AAFbd0tXUE0DTKJS_fOpwTp4uVhLb5H99n8'
-SURVEILLANCE_GROUP_ID = '-4235492901'  # Replace with your private group's ID
+BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'
+SURVEILLANCE_GROUP_ID = 'YOUR_GROUP_ID_HERE'  # Replace with your private group's ID
 
 # Command handler
 async def start(update: Update, context: CallbackContext) -> None:
